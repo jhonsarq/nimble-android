@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NimbleSurvey" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="SplashScreen" parent="Theme.NimbleSurvey">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/splashscreen</item>
+    </style>
+
+    <style name="FullScreenDialogStyle" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowBackground">@color/gray</item>
+    </style>
+
+    <style name="MenuTextStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/neuzeit_s_lt_std_book</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TransparentSpinnerStyle" parent="Widget.AppCompat.Spinner">
+        <item name="android:popupBackground">@color/transparent</item>
+    </style>
+
+</resources>
